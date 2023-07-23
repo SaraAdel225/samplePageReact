@@ -1,0 +1,129 @@
+:root {
+  --main_color: #4a68dc;
+  --hover_color: #213fbb ;
+  --main_transition: 0.3s;
+  --background-section: #ececec;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+      width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+      width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+      width: 1170px;
+  }
+}
+.flexBetween{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.button{
+  color: white;
+  background-color: var(--main_color);
+  padding: 10px 20px;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+}
+.button:hover{
+  transform: scale(1.1); 
+  background-color: var(--hover_color);
+}
+.parg{
+  color:#8c8b8b;
+  font-size: 14px;
+  margin-top: 0px;
+}
+.orangeText{
+  font-size: 24px;
+  color:orange;
+  font-weight: 600;
+  margin: 0px;
+}
+.blueText{
+  font-size: 32px;
+  color: #1f3e72;
+  font-weight: 700;
+  margin: 0px;
+}
+.mainImg{
+  width: 30rem;
+  height: 35rem;
+  overflow: hidden;
+  border-radius: 15rem 15rem 0px 0px;
+  border: 8px solid rgba(255,255,255,.12);
+}
+.mainImg > img{
+  width: 100%;
+  height: 100%;
+}
+.icon{
+  color:#4066ff;
+  background-color: #eeeeff;
+  width: 40px ;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 5px;
+}
+@media (max-width: 980px) {
+  .flexBetween{
+    display: block;
+  }
+  .mainImg{
+    width: 20rem;
+    height: 25rem;
+    margin: auto;
+  }
+  .orangeText{
+    font-size: 19px;
+    text-align: center;
+  }
+  .blueText{
+    font-size: 24px;
+    text-align: center;
+  }
+}

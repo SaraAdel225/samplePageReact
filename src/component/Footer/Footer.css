@@ -1,0 +1,22 @@
+.footer{
+    margin-bottom: 50px;
+}
+.footer .leftDiv p,.footer .rightDiv p {
+    color: #8c8b8b;
+    font-size: 15px;
+    margin: 0px;
+}
+.footer .rightDiv h2{
+    color: #1f3e72;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0px;
+} 
+.footer .rightDiv ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.footer .rightDiv ul li{
+    margin-top: 15px;
+}

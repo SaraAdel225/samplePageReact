@@ -1,0 +1,77 @@
+.home{
+    background-color: #131110;
+    height: 100%;
+    padding: 50px;
+}
+.home .container{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home .content h1{
+    color:white;
+    font-size: 60px;
+    line-height: 1.2;
+    position: relative;
+    z-index: 1;
+}
+.home .content h1::after{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+    right: 120px;
+    top: -10px;
+    z-index: -1;
+}
+.home .content .search{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: 5px solid #ddd;
+    margin-top: 40px;
+}
+.home .content .search .icon{
+    color: var(--main_color);
+    font-size: 23px;
+}
+.home .content .search input{
+    width: 60%;
+    border: none;
+    outline: none;
+}
+.home .content .branch{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.home .content .branch span:first-child{
+    font-size: 35px;
+}
+.home .content .branch span:first-child>:last-child{
+    color: orange;
+    margin-left: 5px;
+}
+
+@media (max-width: 980px) {
+    .home .container{
+        flex-wrap: wrap;
+        margin-top:50px;
+    }
+    .home .container>div{
+        margin-top: 20px;
+    }
+    .home .content h1{
+        font-size: 30px;
+    }
+    .home .content .search{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}

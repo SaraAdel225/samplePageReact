@@ -1,0 +1,70 @@
+.residencies {
+    margin-bottom: 50px;
+    position: relative;
+}
+.residencies .container .swiper{
+    overflow: visible;
+}
+.butSlid{
+    position: absolute;
+    right: 0px;
+    top: -20px
+}
+.butSlid button{
+    color: #00f;
+    background-color: #eef;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+.butSlid button:hover{
+    box-shadow: 0 0 5px 1px #00000040;
+    background-color: white;
+    cursor: pointer;
+}
+.residencies .container .branch{
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.residencies .container .branch:hover{
+    background: linear-gradient(180deg ,#ffffff00 0%, #88a0ff75 217.9%) ;
+    box-shadow: 0px 72px 49px -51px #88a0ff36;
+    border-radius: 10px;
+    transform: translate3D(0,-1px,0) scale(1.03); 
+    transition: all .4s ease; 
+    cursor: pointer;
+}
+.residencies .container .branch img{
+    width: 100%;
+}
+.residencies .container .branch h1{
+    color:#1f3e72;
+}
+.residencies .container .branch h3{
+    color:orange;
+    margin: 5px 0px; 
+}
+.residencies .container .branch h3>span{
+    color:#8c8b8b;
+    font-size: 19px;
+    font-weight: 600;
+}
+.residencies .container .branch h1{
+    font-size: 22px;
+    margin: 5px 0px;
+}
+.residencies .container .branch p{
+    font-size: 12px;
+    color:#8c8b8b
+}
+@media (max-width: 700px) {
+    .butSlid{
+        right: 50%;
+        top: 430px;
+        transform: translateX(50%);
+    }
+}

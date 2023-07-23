@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/samplePageReact/static/css/main.6f7b2b71.css",
+    "main.js": "/samplePageReact/static/js/main.c193cdea.js",
+    "static/js/787.128caece.chunk.js": "/samplePageReact/static/js/787.128caece.chunk.js",
+    "static/media/hero-image.png": "/samplePageReact/static/media/hero-image.eade2b5f1b7c166cb16c.png",
+    "static/media/value.png": "/samplePageReact/static/media/value.b619962bdea2621cbd6b.png",
+    "static/media/contact.jpg": "/samplePageReact/static/media/contact.5e0194664deddac4b915.jpg",
+    "static/media/equinix.png": "/samplePageReact/static/media/equinix.236399b3ed670db792cf.png",
+    "static/media/tower.png": "/samplePageReact/static/media/tower.cc77e18f59771c7ad75b.png",
+    "static/media/prologis.png": "/samplePageReact/static/media/prologis.e1c1031f09a0b81f98d9.png",
+    "static/media/realty.png": "/samplePageReact/static/media/realty.11971af17bb2cc252199.png",
+    "index.html": "/samplePageReact/index.html",
+    "main.6f7b2b71.css.map": "/samplePageReact/static/css/main.6f7b2b71.css.map",
+    "main.c193cdea.js.map": "/samplePageReact/static/js/main.c193cdea.js.map",
+    "787.128caece.chunk.js.map": "/samplePageReact/static/js/787.128caece.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f7b2b71.css",
+    "static/js/main.c193cdea.js"
+  ]
+}

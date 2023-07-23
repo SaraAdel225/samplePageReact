@@ -1,0 +1,57 @@
+.value .container{
+    gap: 200px
+}
+.value .container>div {
+    flex: 1;
+}
+.value .mainImg {
+    border: 8px solid #e8e8e8ed;
+}
+.accordion{
+    margin-top: 10px;
+    border: none !important;
+}
+.accordionItem{
+    background-color: white;
+    border: .8px solid rgba(128,128,128, .143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0px 72px 49px -51px #88a0ff36;
+}
+.value .container .Content .accordion__button:before {
+    display: none;
+}
+.accordionButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color:white ;
+    cursor: pointer;
+}
+.accordionButton h4{
+    color: #1f3e72;
+}
+.accordionItemPanel{
+    padding:  10px;
+}
+.iconData{
+    color:#4066ff;
+    background-color: #eeeeff;
+    width: 40px ;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 5px;
+}
+@media (max-width: 980px) {
+    .value .container .Content{
+        margin-top: 50px;
+    }
+    .accordionButton h4{
+        font-size: 13px;
+    }
+}

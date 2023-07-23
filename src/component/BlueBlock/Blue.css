@@ -1,0 +1,25 @@
+.blue {
+    margin-bottom: 50px;
+}
+.blue .container{
+    background-color: #4161df;
+    border: 6px solid #5d77d6;
+    color:white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+.blue p{
+    color:#ffffff96;
+    font-size: 15px;
+}
+.blue button{
+    background: #5a73d7;
+    border: 2px solid white;
+    box-shadow: 0px 23px 21px -8px rgba(136, 160, 255, .25);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.blue button:hover{
+    background: #5a73d7;
+}
